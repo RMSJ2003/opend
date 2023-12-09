@@ -4,6 +4,10 @@
       "main": "src/opend_backend/main.mo",
       "type": "motoko"
     },
+    "NFT": {
+      "main": "src/NFT/nft.mo",
+      "type": "motoko"
+    },
     "opend_frontend": {
       "dependencies": [
         "opend_backend"
@@ -24,6 +28,7 @@
       "packtool": ""
     }
   },
+  "dfx": "0.15.2",
   "output_env_file": ".env",
   "version": 1
 }
