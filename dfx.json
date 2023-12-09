@@ -4,7 +4,7 @@
       "main": "src/opend_backend/main.mo",
       "type": "motoko"
     },
-    "NFT": {
+    "nft": {
       "main": "src/NFT/nft.mo",
       "type": "motoko"
     },

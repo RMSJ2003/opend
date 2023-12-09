@@ -23,7 +23,7 @@ actor class NFT(name : Text, owner : Principal, content : [Nat8]) {
     let nftOwner = owner;
     let imageBytes = content;
 
-    //Call these using the command line: dfx canister call NFT <function name>
+    //Call these using the command line: dfx canister call nft <function name>
     public query func getName() : async Text {
         return itemName;
     };
